@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/outerRelativeLayout"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/inRelativeLayout"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/linear1"
+            android:padding="10dp"
+            android:background="@color/gray_e3"
+            >
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:textColor="@color/appColor"
+                android:text="@string/dialog_cancel"
+                android:layout_alignParentLeft="true"
+                android:gravity="center_horizontal|center_vertical"
+                android:id="@+id/cancel"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:textColor="@color/appColor"
+                android:text="@string/dialog_done"
+                android:layout_alignParentRight="true"
+                android:gravity="center_horizontal|center_vertical"
+                android:id="@+id/done"
+                android:textStyle="bold"
+                android:visibility="gone"
+                />
+        </RelativeLayout>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/linear1"
+            android:id="@+id/listview"
+            android:divider="@color/gray_e3"
+            android:dividerHeight="0.67dp"
+            >
+
+        </ListView>
+    </RelativeLayout>
+</RelativeLayout>

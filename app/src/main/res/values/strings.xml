@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">전자증빙모바일</string>
+
+    <!-- A001 -->
+    <string name="a001_grp_hint">insert group code</string>
+    <string name="a001_dialog_msg">그룹코드를 확인해 주세요.</string>
+
+    <!-- A002 -->
+    <string name="a002_company_hint">회사코드</string>
+    <string name="a002_id_hint">ID</string>
+    <string name="a002_password_hint">PASSWORD</string>
+
+
+    <!-- common -->
+    <string name="dialog_default_title">메시지</string>
+    <string name="dialog_default_message">내용</string>
+    <string name="dialog_default_pText">확인</string>
+    <string name="dialog_default_nText">취소</string>
+
+    <string name="not_found_data">조회된 데이터가 없습니다.</string>
+    <string name="mandatory_field_msg">필수입력 항목을 모두 작성해주세요.</string>
+
+
+    <string name="a002_id_msg">아이디를 입력해 주세요.</string>
+    <string name="a002_pw_msg">비밀번호를 입력해 주세요.</string>
+    <string name="a002_login_fail_msg">로그인 정보를 확인해 주세요.</string>
+
+    <!--A003-->
+    <string name="navigation_drawer_open">navigation_drawer_open</string>
+    <string name="navigation_drawer_close">navigation_drawer_close</string>
+
+
+    <!-- Dialog -->
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_done">Done</string>
+
+
+    <!-- 페이지 타이틀 -->
+    <string name="toolbar_detail_title">상세내역</string>
+    <string name="toolbar_b001_title">법인카드</string>
+    <string name="toolbar_b002_title">실물증빙전표작성</string>
+    <string name="toolbar_b003_title">결재요청</string>
+    <string name="toolbar_b004_title">실물증빙내역작성</string>
+    <string name="toolbar_b005_title">법인카드내역조회</string>
+
+
+    <string name="toolbar_calendar_title">달력</string>
+
+    <string name="moreThanDateMsg">시작일은 종료일 보다 클 수 없습니다.</string>
+
+    <string name="create_eaccount_btn">전표생성</string>
+
+</resources>

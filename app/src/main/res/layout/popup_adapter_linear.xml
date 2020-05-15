@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/listview_popup_adapter_linear"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+
+    >
+    <TextView
+        android:id="@+id/listview_popup_tv1"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="3"
+        android:textSize="13dp"
+        android:textStyle=""
+        android:text=""
+        android:gravity="center|left"
+        android:textColor="@color/black"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        />
+    <View
+        android:layout_width="2dp"
+        android:layout_height="40dp"
+        android:background="@color/gray_e3"
+        />
+    <TextView
+        android:id="@+id/listview_popup_tv2"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="3"
+        android:textSize="13dp"
+        android:textStyle=""
+        android:text=""
+        android:gravity="center|left"
+        android:textColor="@color/black"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        />
+</LinearLayout>
